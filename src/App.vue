@@ -1,17 +1,14 @@
 <template>
 <fragment>
-   <About msg='Anil'/>
- <HelloWorld msg="Welcome to vue js"/>
+   <About msg='Anil' />
  </fragment>
 </template>
 
 <script>
-import About from './components/About.vue';
-import HelloWorld from './components/HelloWorld.vue';
+import About from './pages/About/About.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     About
   }
 }
